@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(101, 228, 101);
+}
+
+h1{
+    color: rgb(123, 163, 83);
+    font-size: xxx-large;
+    background-color: rgb(101, 228, 101)
+}
+
+
+
+nav{
+background-color: rgb(151, 238, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.butao { 
+    
+    
+    background-color: rgb(151, 238, 2);
+    display: flex
+    ;  justify-content: center;
+    align-items: center;
+    margin-top: px;
+    
+}
+
+button{ 
+padding: 20px;
+  font-size: 15px;
+   border-radius: 10%;
+background-color: rgb(205, 230, 205);
+margin: 10px;}
+
+
+
+   ul {
+display: flex; justify-content: space-evenly ; list-style: none;
+   }
+
+
+ h2{ width: 350px;
+
+
+
+   }
+
+
+
+ 
+
+
+  main{ background-color: rgb(96, 134, 24);
+   
+  
+  }
+
+
+
+
+
+
+  .escuro { height: 100px;
+    position: relative;
+    animation: mymove 1s infinite alternate;
+}
+@keyframes mymove {
+     from{ top: 0px; } 
+     to { top: 20px; } 
+}
+
+
+footer{ background-color: darkolivegreen;
+height: 50px; }
